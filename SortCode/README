@@ -1,0 +1,78 @@
+# Projeto de Estudo - Algoritmo MergeSort
+
+Este projeto foi desenvolvido para praticar e entender o algoritmo de **ordenação MergeSort**, um método eficiente de ordenação baseado no paradigma **Dividir para Conquistar**. O foco principal é aprofundar o conhecimento em **recursividade, fusão de arrays ordenados** e análise de desempenho do MergeSort em comparação com outros algoritmos de ordenação.
+
+## 📋 Descrição
+
+O MergeSort funciona dividindo repetidamente um array em duas metades até que cada parte tenha apenas um elemento. Em seguida, essas partes são **combinadas de maneira ordenada**, garantindo que o resultado final seja um array totalmente ordenado.
+
+Neste projeto, utilizamos uma lista de livros contendo **título, autor e preço**, aplicando o MergeSort para organizá-los de forma crescente com base no preço.
+
+Além disso, foi implementado um **contador de níveis de aninhamento**, que permite visualizar o funcionamento recursivo do algoritmo.
+
+## 📂 Estrutura do Projeto
+
+```
+📁 SortCode
+├── 📄 index.js      # Arquivo principal que executa o MergeSort
+├── 📄 array.js      # Lista de livros a serem ordenados
+├── 📄 README.md     # Documentação do projeto
+```
+
+## ⚙️ Como Executar o Projeto
+
+### 1. Instale o Node.js
+
+Caso ainda não tenha o Node.js instalado, você pode baixá-lo e instalá-lo a partir do site oficial: [Node.js](https://nodejs.org/)
+
+### 2. Clone o repositório
+
+```bash
+git clone <URL_DO_REPOSITORIO>
+```
+
+### 3. Acesse a pasta do projeto
+
+```bash
+cd SortCode
+```
+
+### 4. Execute o projeto
+
+Para rodar o MergeSort e ver os livros ordenados pelo preço, utilize o seguinte comando:
+
+```bash
+node index.js
+```
+
+## ✅ Exemplo de Saída no Console
+
+```bash
+Nível de aninhamento: 0
+[lista completa de livros]
+Nível de aninhamento: 1
+[metade 1]
+Nível de aninhamento: 1
+[metade 2]
+Dom Casmurro - Machado de Assis - R$ 39.90
+A Revolução dos Bichos - George Orwell - R$ 30.00
+O Pequeno Príncipe - Antoine de Saint-Exupéry - R$ 25.00
+1984 - George Orwell - R$ 45.00
+A Menina que Roubava Livros - Markus Zusak - R$ 48.00
+O Código Da Vinci - Dan Brown - R$ 49.90
+O Hobbit - J.R.R. Tolkien - R$ 50.00
+Cem Anos de Solidão - Gabriel García Márquez - R$ 55.00
+Crime e Castigo - Fiódor Dostoiévski - R$ 60.00
+O Último Reino - Bernard Cornwell - R$ 72.00
+O Senhor dos Anéis - J.R.R. Tolkien - R$ 120.00
+```
+
+## 📌 Melhorias Futuras
+
+- Implementar um sistema de benchmark comparando MergeSort com QuickSort.
+- Criar uma interface gráfica para demonstrar visualmente o funcionamento do MergeSort.
+- Adicionar suporte para ordenação por diferentes critérios, como título ou autor.
+
+---
+
+💻 **Projeto criado com foco em aprendizado e prática de algoritmos com Node.js.**
