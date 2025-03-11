@@ -1,0 +1,70 @@
+# Projeto de Estudo - List Sorting and Merging Algorithm
+
+Este projeto foi desenvolvido para praticar e entender o algoritmo de **Listagem e Ordenação**, que combina duas listas desconexas em uma única lista ordenada. O foco principal é aprimorar o entendimento sobre manipulação de arrays, lógica de ordenação e implementação de algoritmos eficientes com JavaScript.
+
+## 📋 Descrição
+O projeto consiste em duas listas de editoras, cada uma com diferentes nomes e preços. Utilizando a lógica de **Merge List**, essas duas listas são fundidas em uma única lista ordenada de forma crescente com base no preço.
+
+## 📂 Estrutura do Projeto
+```
+📁 OrderList
+├── 📄 index.ts        # Arquivo principal que executa o algoritmo
+├── 📄 listArrays.js   # Listas de editoras para serem ordenadas
+├── 📄 README.md       # Documentação do projeto
+```
+
+## ⚙️ Como Executar o Projeto
+
+### 1. Instale o Node.js
+Caso ainda não tenha o Node.js instalado, você pode baixá-lo e instalá-lo a partir do site oficial: [Node.js](https://nodejs.org/)
+
+### 2. Clone o repositório
+```bash
+ git clone <URL_DO_REPOSITORIO>
+```
+
+### 3. Acesse a pasta do projeto
+```bash
+ cd OrderList
+```
+
+### 4. Execute o projeto
+Para rodar o projeto, utilize o seguinte comando:
+```bash
+node index.ts
+```
+
+## ✅ Exemplo de Saída no Console
+```bash
+Comparando Editora Delta com Editora Lambda
+Comparando Editora Alfa com Editora Lambda
+Comparando Editora Alfa com Editora Teta
+Comparando Editora Beta com Editora Teta
+Comparando Editora Beta com Editora Ômega
+Comparando Editora Gama com Editora Ômega
+Comparando Editora Épsilon com Editora Ômega
+Comparando Editora Épsilon com Editora Sigma
+[
+  { nome: 'Editora Delta', preco: 25 },
+  { nome: 'Editora Lambda', preco: 25 },
+  { nome: 'Editora Alfa', preco: 29.9 },
+  { nome: 'Editora Beta', preco: 35.5 },
+  { nome: 'Editora Gama', preco: 40 },
+  { nome: 'Editora Épsilon', preco: 50 },
+  { nome: 'Editora Ômega', preco: 75 },
+  { nome: 'Editora Sigma', preco: 85.5 },
+  { nome: 'Editora Zeta', preco: 95 },
+  { nome: 'Editora Teta', preco: 110 },
+  { nome: 'Editora Kappa', preco: 120 }
+]
+```
+
+## 📌 Melhorias Futuras
+- Implementar uma interface CLI para interação mais intuitiva.
+- Permitir que o usuário insira novas listas para serem fundidas.
+- Adicionar tratamento de erros para entradas inválidas.
+
+---
+
+💻 **Projeto criado com foco em aprendizado e prática de algoritmos com Node.js.**
+
