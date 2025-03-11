@@ -1,0 +1,67 @@
+# Projeto de Estudo - Algoritmo QuickSort
+
+Este projeto foi desenvolvido para praticar e entender o algoritmo de **ordenação QuickSort**, um dos métodos mais eficientes para organizar listas de elementos. O foco principal é aprimorar o conhecimento sobre **recursividade, particionamento de arrays** e a lógica por trás da ordenação rápida em JavaScript.
+
+## 📋 Descrição
+
+O QuickSort funciona dividindo uma lista em partes menores com base em um **pivô**, reorganizando os elementos menores à esquerda e os maiores à direita. Esse processo é repetido recursivamente até que toda a lista esteja ordenada.
+
+Neste projeto, utilizamos um array contendo uma lista de livros com seus respectivos preços e aplicamos o QuickSort para organizá-los em ordem crescente de preço.
+
+## 📂 Estrutura do Projeto
+
+```
+📁 QuickSort
+├── 📄 index.js          # Arquivo principal que executa o algoritmo
+├── 📄 array.js          # Lista de livros com preços para ordenação
+├── 📄 filtraMenores.js  # Função auxiliar para reposicionamento de valores
+├── 📄 README.md         # Documentação do projeto
+```
+
+## ⚙️ Como Executar o Projeto
+
+### 1. Instale o Node.js
+
+Caso ainda não tenha o Node.js instalado, você pode baixá-lo e instalá-lo a partir do site oficial: [Node.js](https://nodejs.org/)
+
+### 2. Clone o repositório
+
+```bash
+git clone <URL_DO_REPOSITORIO>
+```
+
+### 3. Acesse a pasta do projeto
+
+```bash
+cd QuickSort
+```
+
+### 4. Execute o projeto
+
+Para rodar o QuickSort e ver os livros ordenados pelo preço, utilize o seguinte comando:
+
+```bash
+node index.js
+```
+
+## ✅ Exemplo de Saída no Console
+
+```bash
+Ordenando livros...
+{ titulo: 'Livro A', preco: 20 }
+{ titulo: 'Livro B', preco: 35 }
+{ titulo: 'Livro C', preco: 50 }
+{ titulo: 'Livro D', preco: 80 }
+{ titulo: 'Livro E', preco: 120 }
+Lista ordenada com sucesso!
+```
+
+## 📌 Melhorias Futuras
+
+- Implementar um sistema de benchmark para medir o desempenho do QuickSort em diferentes tamanhos de listas.
+- Criar uma interface gráfica para facilitar a visualização da ordenação.
+- Adicionar suporte a diferentes critérios de ordenação, como título ou categoria.
+
+---
+
+💻 **Projeto criado com foco em aprendizado e prática de algoritmos com Node.js.**
